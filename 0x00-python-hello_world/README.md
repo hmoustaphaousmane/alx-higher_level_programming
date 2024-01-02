@@ -10,4 +10,5 @@
 * 7-edges.py: slicing
 * 8-concat\_edges.py: slicing
 * 9-easter\_egg.py: print "The Zen of Python", by TimPeters
+* 10-check\_cycle.c, lists.h: a function in C that checks if a singly linked list has a cycle in it
 
