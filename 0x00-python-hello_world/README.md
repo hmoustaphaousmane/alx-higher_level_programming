@@ -12,4 +12,5 @@
 * 9-easter\_egg.py: print "The Zen of Python", by TimPeters
 * 10-check\_cycle.c, lists.h: a function in C that checks if a singly linked list has a cycle in it
 * 100-write.py: print on `stderr` using function `write` from the `sys module
+* 101-compile: a script that compiles a Python script file
 
