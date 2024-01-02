@@ -9,4 +9,5 @@
 * 6-concat.py: print `Welcome to Holberton School!`
 * 7-edges.py: slicing
 * 8-concat\_edges.py: slicing
+* 9-easter\_egg.py: print "The Zen of Python", by TimPeters
 
