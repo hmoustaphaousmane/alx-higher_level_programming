@@ -8,4 +8,5 @@
 * 5-print\_string.py: print a string
 * 6-concat.py: print `Welcome to Holberton School!`
 * 7-edges.py: slicing
+* 8-concat\_edges.py: slicing
 
