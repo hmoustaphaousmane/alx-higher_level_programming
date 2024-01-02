@@ -7,3 +7,5 @@
 * 4-print\_float.py: a Python script that prints a float variable with a precision of 2 digits
 * 5-print\_string.py: print a string
 * 6-concat.py: print `Welcome to Holberton School!`
+* 7-edges.py: slicing
+
