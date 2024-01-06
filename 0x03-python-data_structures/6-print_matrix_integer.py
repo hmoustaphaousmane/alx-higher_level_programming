@@ -1,4 +1,4 @@
-#!/bin/usr/python3
+#!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
     """Function that prints a matrix of integers"""
     if matrix == [[]]:
@@ -7,6 +7,6 @@ def print_matrix_integer(matrix=[[]]):
         for row in matrix:
             for idx, number in enumerate(row):
                 if idx == len(row) - 1:
-                    print("{}".format(number))
+                    print("{:d}".format(number))
                 else:
-                    print("{}".format(number), end=" ")     
+                    print("{:d}".format(number), end=" ")
