@@ -1,19 +1,16 @@
 #!/usr/bin/node
 
 const { argv } = require('node:process');
+const args = argv.slice(2).map(Number);
 
-if (argv.length < 2) {
+if (args.length <= 1) {
   console.log(0);
 } else {
-  let secondBiggest = 0;
-  let biggest = 0;
+  const sortedArgs = [...new Set(args)].sort((a, b) => b - a);
 
-  for (let index = 2; index < argv.length; index++) {
-    if (parseInt(argv[index]) > biggest) {
-      secondBiggest = biggest;
-      biggest = parseInt(argv[index]);
-    }
+  if (sortedArgs.length < 2) {
+    console.log(0);
+  } else {
+    console.log(sortedArgs[1]);
   }
-
-  console.log(secondBiggest);
 }
